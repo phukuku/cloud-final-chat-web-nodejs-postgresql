@@ -1,0 +1,36 @@
+{
+  "name": "inponowwebmessage",
+  "version": "1.0.0",
+  "description": "inponow web message by aldi",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  
+  "author": "Aldi Pradana",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.1.9",
+    "express": "*",
+    "express-fileupload": "^1.2.1",
+    "express-session": "^1.17.1",
+    "fs": "0.0.1-security",
+    "htmlspecialchars": "^1.0.5",
+    "htmlspecialchars_decode": "^1.1.0",
+    "jquery": "^3.5.1",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "pg": "^8.11.3",
+    "pg-promise": "^11.5.4",
+    "popper.js": "^1.16.1",
+    "sharp": "^0.33.1",
+    "socket.io": "^4.7.2",
+    "uuid": "^9.0.1"
+  }
+}
